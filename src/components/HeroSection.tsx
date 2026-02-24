@@ -12,11 +12,11 @@ const HeroSection = () => {
       </div>
 
       {/* Heading */}
-      <h1 className="mb-3 text-4xl md:text-6xl font-bold not-italic">
+      <h1 className="mb-3 text-4xl md:text-5xl font-bold text-accent not-italic whitespace-nowrap">
         Claim Your Gift Card Now!
       </h1>
 
-      <p className="mb-6 text-lg text-muted-foreground">
+      <p className="mb-5 text-lg text-muted-foreground">
         Higher value deals = faster rewards!
       </p>
 
@@ -25,7 +25,7 @@ const HeroSection = () => {
         href={CTA_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="btn-cta mb-2 rounded-full px-6 py-4"
+        className="btn-cta mb-2 rounded-full px-8 py-3"
       >
         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/20 text-sm font-bold">
           UE
