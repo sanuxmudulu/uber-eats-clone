@@ -22,22 +22,24 @@ const HeroSection = () => {
 
       {/* CTA Button */}
       <a
-        href={CTA_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="btn-cta mb-2 rounded-full px-7 py-2.5"
-      >
-        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/20 text-sm font-bold">
-          UE
-        </span>
+  href={CTA_URL}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group relative mb-2 flex w-full max-w-md items-center justify-center gap-3 rounded-full bg-accent px-6 py-3 text-white shadow-lg transition-all duration-200 hover:scale-[1.02]"
+>
+  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/25 text-xs font-bold">
+    UE
+  </span>
 
-        <span className="flex flex-col items-start leading-tight">
-          <span className="text-base font-semibold">$750 Uber Eats Gift Card</span>
-          <span className="text-xs font-normal opacity-80">
-            (Enter Email &amp; Complete Deals)
-          </span>
-        </span>
-      </a>
+  <div className="leading-tight text-center">
+    <div className="text-base font-semibold">
+      $750 Uber Eats Gift Card
+    </div>
+    <div className="text-xs opacity-90">
+      (Enter Email &amp; Complete Deals)
+    </div>
+  </div>
+</a>
     </section>
   );
 };
