@@ -23,24 +23,25 @@ const steps = [
 
 const StepsSection = () => {
   return (
-    <section className="px-4 pb-8">
-      <div className="card-dark mx-auto max-w-lg">
-        <div className="space-y-6">
+    <section className="px-4 pb-4">
+      <div className="card-dark mx-auto max-w-lg py-5">
+        <div className="space-y-4">
           {steps.map((step) => (
-            <div key={step.number} className="flex items-start gap-4">
+            <div key={step.number} className="flex items-start gap-3">
               <div className="step-circle">{step.number}</div>
               <div>
-                <h3 className="text-lg font-bold text-foreground">
+                <h3 className="text-base font-semibold text-foreground">
                   {step.title}
                 </h3>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-xs text-muted-foreground">
                   {step.description}
                 </p>
               </div>
             </div>
           ))}
         </div>
-        <p className="mt-6 text-xs text-muted-foreground italic">
+
+        <p className="mt-4 text-[10px] text-muted-foreground">
           * Terms and conditions apply. Gift card values may vary based on
           completed offers.
         </p>
