@@ -91,7 +91,7 @@
   }
 
   .section-heading {
-    @apply text-2xl font-extrabold italic md:text-3xl;
+    @apply text-2xl font-extrabold not-italic md:text-3xl;
     background: linear-gradient(135deg, hsl(154 96% 38%), hsl(154 80% 55%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
