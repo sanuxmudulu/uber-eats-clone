@@ -9,27 +9,27 @@ const faqs = [
   {
     question: "How long does it take?",
     answer:
-      "Most users complete the required deals within 15–30 minutes. Your gift card is typically delivered within 24–48 hours after verification.",
+      "2-3 mins per deal on average",
   },
   {
     question: "What are 'deals'?",
     answer:
-      "Deals are simple tasks like downloading a free app, signing up for a free trial, or completing a short survey. They are quick and easy to complete.",
+      "Simple tasks like app downloads, surveys, or trial",
   },
   {
     question: "Do I have to pay anything?",
     answer:
-      "No, you do not have to pay anything. The deals are free to complete. Some may require a free trial signup, which you can cancel anytime.",
+      "Some deals are totally free, and some may include a trial/subscription",
   },
   {
     question: "Why do I need to enter my email?",
     answer:
-      "We need your email to send you the Uber Eats gift card code and to verify your completed deals.",
+      "So your reward + updates can be sent to you",
   },
   {
     question: "When do I get the Uber Eats gift card?",
     answer:
-      "After completing the required deals and verification, your gift card will be delivered to your email within 24–48 hours.",
+      "After you finish the recommended deals, you’ll receive the gift card in email",
   },
 ];
 
