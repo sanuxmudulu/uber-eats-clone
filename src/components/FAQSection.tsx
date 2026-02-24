@@ -23,3 +23,5 @@ const FAQSection = () => {
     </section>
   );
 };
+
+export default FAQSection;
