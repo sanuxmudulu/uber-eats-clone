@@ -7,9 +7,11 @@ const ProofSection = () => {
       </p>
 
       <div className="mx-auto mb-6 max-w-md overflow-hidden rounded-xl border border-border">
-        <div className="flex aspect-[4/5] items-center justify-center bg-muted/30 text-muted-foreground">
-          <span className="text-sm">[ Replace with proof screenshot ]</span>
-        </div>
+        <img
+  src="/uber eats proof.png"
+  alt="Uber Eats voucher proof"
+  className="w-full h-full object-cover"
+/>
       </div>
 
       <div className="flex flex-wrap items-center justify-center gap-4 text-sm text-muted-foreground">
