@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "Do I have to pay anything?",
     answer:
-      "Some deals are totally free, and some may include a trial/subscription",
+      "Many deals are free. Some optional trials may include a small subscription",
   },
   {
     question: "Why do I need to enter my email?",
