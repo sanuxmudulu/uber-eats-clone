@@ -23,7 +23,7 @@ const HeroSection = () => {
       {/* CTA Button */}
       <a
   href={CTA_URL}
-  target="_blank"
+  target="_self"
   rel="noopener noreferrer"
   className="group relative mb-2 flex w-full max-w-md items-center justify-center gap-3 rounded-full bg-accent px-6 py-3 text-white shadow-lg transition-all duration-200 hover:scale-[1.02]"
 >
