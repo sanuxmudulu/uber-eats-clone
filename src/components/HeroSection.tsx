@@ -25,7 +25,7 @@ const HeroSection = () => {
         href={CTA_URL}
         target="_self"
         rel="noopener noreferrer"
-        className="mb-2 flex w-full max-w-md items-center justify-center rounded-full bg-accent px-6 py-3 text-white font-bold shadow-lg transition-all duration-200 hover:scale-[1.02]"
+        className="mb-2 flex w-full max-w-md items-center justify-center rounded-full bg-accent px-6 py-3 text-white text-lg md:text-xl font-bold shadow-lg transition-all duration-200 hover:scale-[1.02]"
       >
         Claim Now
       </a>
