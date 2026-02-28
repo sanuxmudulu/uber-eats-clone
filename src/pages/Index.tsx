@@ -1,6 +1,5 @@
 import HeroSection from "@/components/HeroSection";
 import StepsSection from "@/components/StepsSection";
-import ProofSection from "@/components/ProofSection";
 import FAQSection from "@/components/FAQSection";
 import FooterDisclaimer from "@/components/FooterDisclaimer";
 
@@ -9,7 +8,6 @@ const Index = () => {
     <main className="mx-auto min-h-screen max-w-2xl bg-background">
       <HeroSection />
       <StepsSection />
-      <ProofSection />
       <FAQSection />
       <FooterDisclaimer />
     </main>
