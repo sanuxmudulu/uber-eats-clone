@@ -17,7 +17,7 @@ const HeroSection = () => {
       </h1>
 
       <p className="mb-5 text-base text-muted-foreground">
-        Follow the steps below to claim.
+        Higher value deals = faster rewards!
       </p>
 
       {/* CTA Button */}
