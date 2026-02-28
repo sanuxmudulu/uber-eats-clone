@@ -26,21 +26,21 @@ const ProofSection = () => {
           <div className="hidden md:flex md:justify-center md:gap-6">
             <div className="w-80">
               <img
-                src="/images/proof1.jpeg"
+                src="/images/proof1.jpg"
                 alt="Proof of Uber Eats reward claim 1"
                 className="w-full h-auto max-h-96 object-contain rounded-lg shadow-md"
               />
             </div>
             <div className="w-80">
               <img
-                src="/images/proof2.jpeg"
+                src="/images/proof2.jpg"
                 alt="Proof of Uber Eats reward claim 2"
                 className="w-full h-auto max-h-96 object-contain rounded-lg shadow-md"
               />
             </div>
             <div className="w-80">
               <img
-                src="/images/proof3.jpeg"
+                src="/images/proof3.jpg"
                 alt="Proof of Uber Eats reward claim 3"
                 className="w-full h-auto max-h-96 object-contain rounded-lg shadow-md"
               />
