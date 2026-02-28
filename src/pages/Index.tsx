@@ -8,6 +8,7 @@ const Index = () => {
     <main className="mx-auto min-h-screen max-w-2xl bg-background">
       <HeroSection />
       <StepsSection />
+      <ProofSection />
       <FAQSection />
       <FooterDisclaimer />
     </main>
