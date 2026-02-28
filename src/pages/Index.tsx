@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import StepsSection from "@/components/StepsSection";
+import ProofSection from "@/components/ProofSection";
 import FAQSection from "@/components/FAQSection";
 import FooterDisclaimer from "@/components/FooterDisclaimer";
 
