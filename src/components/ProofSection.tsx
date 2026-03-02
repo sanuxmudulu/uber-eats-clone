@@ -9,7 +9,7 @@ const ProofSection = () => {
           Recent Reward Claims
         </h2>
         <p className="text-center text-sm mb-4 text-muted-foreground">
-          Real results from real people! 💚
+          Real results from real people!
         </p>
 
         {/* Swipe indicator (mobile only) */}
