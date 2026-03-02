@@ -23,7 +23,7 @@ const steps = [
 
 const StepsSection = () => {
   return (
-    <section className="px-4 pb-4">
+    <section className="px-4 pt-4 pb-8">
       <div className="card-dark mx-auto max-w-lg py-5">
         <div className="space-y-4">
           {steps.map((step) => (
