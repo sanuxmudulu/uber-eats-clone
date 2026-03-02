@@ -2,7 +2,7 @@ import { Users, Star } from "lucide-react";
 
 const ProofSection = () => {
   return (
-    <section className="px-4 py-10 text-center">
+    <section className="px-4 py-6 text-center">
       <div className="w-full max-w-6xl mx-auto">
         {/* Headline + subheadline */}
         <h2 className="text-2xl font-bold text-center mb-2 text-accent">
