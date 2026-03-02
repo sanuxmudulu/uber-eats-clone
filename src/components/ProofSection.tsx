@@ -6,7 +6,7 @@ const ProofSection = () => {
       <div className="w-full max-w-6xl mx-auto">
         {/* Headline + subheadline */}
         <h2 className="text-2xl font-bold text-center mb-2 text-accent">
-          Uber Eats Top Claims of the Week
+          Recent Reward Claims
         </h2>
         <p className="text-center text-sm mb-4 text-muted-foreground">
           Real results from real people! 💚
