@@ -52,21 +52,21 @@ const ProofSection = () => {
             <div className="flex gap-4 px-2">
               <div className="flex-shrink-0 w-72 snap-center">
                 <img
-                  src="/images/proof1.jpeg"
+                  src="/images/proof1.jpg"
                   alt="Proof of Uber Eats reward claim 1"
                   className="w-full h-auto max-h-[500px] object-contain rounded-lg shadow-md"
                 />
               </div>
               <div className="flex-shrink-0 w-72 snap-center">
                 <img
-                  src="/images/proof2.jpeg"
+                  src="/images/proof2.jpg"
                   alt="Proof of Uber Eats reward claim 2"
                   className="w-full h-auto max-h-[500px] object-contain rounded-lg shadow-md"
                 />
               </div>
               <div className="flex-shrink-0 w-72 snap-center">
                 <img
-                  src="/images/proof3.jpeg"
+                  src="/images/proof3.jpg"
                   alt="Proof of Uber Eats reward claim 3"
                   className="w-full h-auto max-h-[500px] object-contain rounded-lg shadow-md"
                 />
