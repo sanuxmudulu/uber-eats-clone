@@ -9,27 +9,27 @@ const faqs = [
   {
     question: "How long does it take?",
     answer:
-      "2-3 mins per deal on average",
+      "Most people complete the required deals in about 8-12 minutes",
   },
   {
     question: "What are 'deals'?",
     answer:
-      "Simple tasks like app downloads, surveys, or trial",
+      "Simple offers like app downloads, free trials, or short surveys",
   },
   {
     question: "Do I have to pay anything?",
     answer:
-      "Many deals are free. Some optional trials may include a small subscription",
+      "Many deals are completely free. Some optional trials may require a small subscription",
   },
   {
     question: "Why do I need to enter my email?",
     answer:
-      "So your reward + updates can be sent to you",
+      "Your email is used to track your progress and send your Woolworths gift card",
   },
   {
-    question: "When do I get the Uber Eats gift card?",
+    question: "When do I receive the Woolworths gift card?",
     answer:
-      "After you finish the recommended deals, you’ll receive the gift card in email",
+      "Once the required deals are completed and verified, your reward is sent to your email",
   },
 ];
 
