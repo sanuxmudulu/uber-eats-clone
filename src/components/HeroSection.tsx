@@ -19,7 +19,7 @@ const HeroSection = () => {
       <div className="mb-2 h-1 w-16 rounded-full bg-accent" />
 
       {/* Headline */}
-      <h2 className="mb-3 text-xl md:text-2xl font-semibold text-foreground whitespace-nowrap">
+      <h2 className="mb-3 text-2xl md:text-3xl font-semibold text-foreground whitespace-nowrap">
         Complete Your Registration
       </h2>
 
@@ -33,11 +33,17 @@ const HeroSection = () => {
         <div className="space-y-2">
           {steps.map((step) => (
             <div key={step.number} className="flex items-center gap-3">
-              <div className="step-circle">{step.number}</div>
 
-              <p className="text-sm md:text-base font-semibold text-foreground">
+              {/* Step Number */}
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent text-sm font-bold text-white shrink-0">
+                {step.number}
+              </div>
+
+              {/* Step Text */}
+              <p className="text-base md:text-lg font-semibold text-foreground">
                 {step.title}
               </p>
+
             </div>
           ))}
         </div>
