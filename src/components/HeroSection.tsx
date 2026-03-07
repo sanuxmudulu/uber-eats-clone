@@ -24,23 +24,23 @@ const HeroSection = () => {
       </h2>
 
       {/* Subtext */}
-      <p className="mb-4 text-sm text-muted-foreground">
+      <p className="mb-5 text-sm text-muted-foreground">
         Follow these simple steps to claim your $500 Woolworths gift card
       </p>
 
       {/* Steps Box */}
-      <div className="card-dark mx-auto mb-4 w-full max-w-lg px-5 py-4">
-        <div className="space-y-2">
+      <div className="card-dark mx-auto mb-5 w-full max-w-lg px-5 py-5">
+        <div className="space-y-3">
           {steps.map((step) => (
-            <div key={step.number} className="flex items-center gap-3">
+            <div key={step.number} className="flex items-start gap-4">
 
               {/* Step Number */}
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-accent text-sm font-bold text-white shrink-0">
+              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent text-sm font-bold text-white">
                 {step.number}
               </div>
 
               {/* Step Text */}
-              <p className="text-base md:text-lg font-semibold text-foreground">
+              <p className="text-base md:text-lg font-semibold leading-snug text-foreground">
                 {step.title}
               </p>
 
@@ -48,7 +48,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <p className="mt-3 text-[10px] text-muted-foreground">
+        <p className="mt-4 text-[10px] text-muted-foreground">
           * Terms and conditions apply. Gift card values may vary based on completed offers.
         </p>
       </div>
