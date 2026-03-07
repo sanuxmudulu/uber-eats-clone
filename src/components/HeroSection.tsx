@@ -13,11 +13,11 @@ const HeroSection = () => {
 
       {/* Heading */}
       <h1 className="mb-2 text-3xl md:text-4xl font-bold text-accent not-italic">
-        Claim $750 for Uber Eats
+        Woolworths
       </h1>
 
       <p className="mb-5 text-base text-muted-foreground">
-        Higher value deals = faster rewards!
+        Follow these simple steps to claim your $500 Woolworths gift card
       </p>
 
       {/* CTA Button */}
