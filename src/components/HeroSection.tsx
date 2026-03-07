@@ -1,4 +1,4 @@
-const CTA_URL = "https://trkio.org/aff_c?offer_id=633&aff_id=150406";
+const CTA_URL = "https://giftclick.org/aff_c?offer_id=3142&aff_id=150406";
 
 const HeroSection = () => {
   return (
