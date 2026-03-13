@@ -1,72 +1,71 @@
 const CTA_URL = "https://giftclick.org/aff_c?offer_id=3142&aff_id=150406";
 
 const steps = [
-  { number: 1, title: 'Click on "Claim Now"' },
-  { number: 2, title: "Enter your email and basic info" },
-  { number: 3, title: "Complete 4–6 sponsored deals" },
-  { number: 4, title: "Enjoy your $500 Woolworths gift card!" },
+  {
+    number: 1,
+    title: "REGISTER",
+    description: 'Click the Claim Now button above and enter your basic details.',
+  },
+  {
+    number: 2,
+    title: "VERIFY",
+    description: "Complete 4-5 sponsored deals to prove you are a real person.",
+  },
+  {
+    number: 3,
+    title: "GET REWARDED",
+    description:
+      "Receive your Woolworths Gift Card instantly upon completion to fund your groceries!",
+  },
 ];
 
 const HeroSection = () => {
   return (
     <section className="flex flex-col items-center px-4 pt-6 pb-4 text-center">
-
       {/* Brand */}
-      <h1 className="mb-1 text-4xl md:text-5xl font-bold text-accent">
-        Woolworths
+      <h1 className="mb-4 text-4xl font-bold tracking-wide text-foreground md:text-5xl">
+        WOOLWORTHS
       </h1>
-
-      <div className="mb-2 h-1 w-16 rounded-full bg-accent" />
-
-      {/* Headline */}
-      <h2 className="mb-3 text-2xl md:text-3xl font-semibold text-foreground whitespace-nowrap">
-        Complete Your Registration
-      </h2>
-
-      {/* Subtext */}
-      <p className="mb-5 text-sm text-muted-foreground">
-        Follow these simple steps to claim your $500 Woolworths gift card
-      </p>
-
-      {/* Steps Box */}
-      <div className="card-dark mx-auto mb-5 w-full max-w-lg px-5 py-5">
-        <div className="space-y-3">
-          {steps.map((step) => (
-            <div key={step.number} className="flex items-start gap-4">
-
-              {/* Step Number */}
-              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent text-sm font-bold text-white">
-                {step.number}
-              </div>
-
-              {/* Step Text */}
-              <p className="text-base md:text-lg font-semibold leading-snug text-foreground">
-                {step.title}
-              </p>
-
-            </div>
-          ))}
-        </div>
-
-        <p className="mt-4 text-[10px] text-muted-foreground">
-          * Terms and conditions apply. Gift card values may vary based on completed offers.
-        </p>
-      </div>
 
       {/* CTA */}
       <a
         href={CTA_URL}
         target="_self"
         rel="noopener noreferrer"
-        className="flex w-full max-w-lg items-center justify-center rounded-full bg-accent px-6 py-3 text-lg md:text-xl font-bold text-white shadow-lg transition-all duration-200 hover:scale-[1.02]"
+        className="mb-6 flex w-full max-w-lg items-center justify-center rounded-full bg-accent px-6 py-3 text-lg font-bold text-white shadow-lg transition-all duration-200 hover:scale-[1.02] md:text-xl"
       >
         CLAIM NOW
       </a>
 
-      <p className="mt-2 max-w-lg text-xs text-muted-foreground">
-        By clicking "Claim Now", you agree to complete the required steps to receive your gift card.
-      </p>
+      {/* Steps Heading */}
+      <h2 className="mb-5 text-2xl font-bold uppercase text-foreground md:text-3xl">
+        HOW IT WORKS
+      </h2>
 
+      {/* Step Cards */}
+      <div className="mx-auto flex w-full max-w-lg flex-col gap-4">
+        {steps.map((step) => (
+          <div
+            key={step.number}
+            className="rounded-3xl bg-card px-5 py-5 text-left shadow-sm"
+          >
+            <div className="flex items-start gap-4">
+              <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-black text-3xl font-bold text-white shadow-md">
+                {step.number}
+              </div>
+
+              <div className="pt-1">
+                <h3 className="mb-2 text-2xl font-extrabold uppercase leading-none text-foreground">
+                  {step.title}
+                </h3>
+                <p className="text-lg leading-relaxed text-foreground">
+                  {step.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };
