@@ -24,12 +24,12 @@ const HeroSection = () => {
     <section className="flex flex-col items-center px-4 pt-6 pb-4 text-center">
 
       {/* Brand */}
-      <h1 className="mb-5 text-4xl md:text-5xl font-extrabold tracking-widest text-green-600">
+      <h1 className="mb-6 text-4xl md:text-5xl font-bold text-[#00843D]">
         WOOLWORTHS
       </h1>
 
-      {/* Steps Heading */}
-      <h2 className="mb-4 text-xl md:text-2xl font-bold uppercase text-foreground">
+      {/* HOW IT WORKS */}
+      <h2 className="mb-6 text-2xl md:text-3xl font-bold uppercase text-foreground">
         HOW IT WORKS
       </h2>
 
@@ -48,7 +48,7 @@ const HeroSection = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-extrabold uppercase leading-none text-foreground mb-1">
+                <h3 className="text-lg md:text-xl font-extrabold uppercase leading-none text-foreground mb-1">
                   {step.title}
                 </h3>
 
