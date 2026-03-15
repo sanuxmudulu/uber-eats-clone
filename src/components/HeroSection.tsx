@@ -9,7 +9,7 @@ const steps = [
   {
     number: 2,
     title: "VERIFY",
-    description: "Complete 4–5 sponsored deals to prove you are a real person.",
+    description: "Complete 3–5 sponsored deals to prove you are a real person.",
   },
   {
     number: 3,
@@ -73,7 +73,8 @@ const HeroSection = () => {
       </a>
 
       <p className="mt-2 max-w-lg text-xs text-muted-foreground">
-        By clicking "Claim Now", you agree to complete the required steps to receive your gift card.
+        Start with a few quick deals and unlock Woolworths rewards.
+        Complete more deals to increase your reward amount (up to $500).
       </p>
 
     </section>
