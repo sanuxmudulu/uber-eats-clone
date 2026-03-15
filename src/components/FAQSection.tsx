@@ -9,17 +9,17 @@ const faqs = [
   {
     question: "How long does it take?",
     answer:
-      "Most people complete the required deals in about 8-12 minutes",
+      "Most people complete the required deals in about 5-7 minutes",
   },
   {
     question: "What are 'deals'?",
     answer:
-      "Simple offers like app downloads, free trials, or short surveys",
+      "Simple tasks like app downloads, free trials, or short surveys",
   },
   {
-    question: "Do I have to pay anything?",
+    question: "Is this really free?",
     answer:
-      "Many deals are completely free. Some optional trials may require a small subscription",
+      "Yes. The deals are free and come from our sponsors who promote their apps and services. You are rewarded for participating.",
   },
   {
     question: "Why do I need to enter my email?",
