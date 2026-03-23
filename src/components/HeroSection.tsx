@@ -22,16 +22,16 @@ const steps = [
 ];
 
 const notifications = [
-  "Olivia claimed $500 for completing 5 deals",
-"Charlotte received $400 for doing 4 deals",
-"Amelia claimed $250 for completing 3 deals",
-"Isla received $500 for doing 5 deals",
-"Ava claimed $400 for completing 4 deals",
-"Mia received $250 for doing 3 deals",
-"Grace claimed $500 for completing 5 deals",
-"Willow received $400 for doing 4 deals",
-"Harper claimed $250 for completing 3 deals",
-"Chloe received $500 for doing 5 deals",
+  <>Olivia claimed <span className="text-green-500 font-semibold">$500</span> for completing 5 deals</>,
+  <>Charlotte received <span className="text-green-500 font-semibold">$400</span> for doing 4 deals</>,
+  <>Amelia claimed <span className="text-green-500 font-semibold">$250</span> for completing 3 deals</>,
+  <>Isla received <span className="text-green-500 font-semibold">$500</span> for doing 5 deals</>,
+  <>Ava claimed <span className="text-green-500 font-semibold">$400</span> for completing 4 deals</>,
+  <>Mia received <span className="text-green-500 font-semibold">$250</span> for doing 3 deals</>,
+  <>Grace claimed <span className="text-green-500 font-semibold">$500</span> for completing 5 deals</>,
+  <>Willow received <span className="text-green-500 font-semibold">$400</span> for doing 4 deals</>,
+  <>Harper claimed <span className="text-green-500 font-semibold">$250</span> for completing 3 deals</>,
+  <>Chloe received <span className="text-green-500 font-semibold">$500</span> for doing 5 deals</>,
 ];
 
 const HeroSection = () => {
@@ -145,12 +145,15 @@ const HeroSection = () => {
               : "translate-y-4 opacity-0"
           }`}
         >
-          <div className="flex items-center justify-center">
-            <p className="truncate text-sm font-semibold text-foreground sm:text-base">
-              {shuffledNotifications[currentIndex]}
-            </p>
+          <div className="flex items-center justify-center gap-2">
+  {/* Green dot */}
+  <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
 
-          </div>
+  {/* Text */}
+  <p className="truncate text-sm font-semibold text-foreground sm:text-base">
+    {shuffledNotifications[currentIndex]}
+  </p>
+</div>
         </div>
       </div>
     </section>
