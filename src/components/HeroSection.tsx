@@ -80,11 +80,7 @@ const HeroSection = () => {
 
   return (
     <section className="flex flex-col items-center px-4 pt-6 pb-4 text-center">
-      <div className="mb-4 flex w-full max-w-lg justify-end">
-  <div className="rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent shadow-sm">
-    Active: {activeCount}
-  </div>
-</div>
+      
       {/* Brand */}
       <h1 className="mb-6 text-4xl md:text-5xl font-bold text-[#00843D]">
         WOOLWORTHS
