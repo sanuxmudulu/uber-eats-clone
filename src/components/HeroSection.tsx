@@ -81,7 +81,7 @@ const HeroSection = () => {
   return (
     <section className="flex flex-col items-center px-4 pt-6 pb-4 text-center">
       <div className="mb-4 flex w-full max-w-lg justify-end">
-  <div className="rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent shadow-sm">
+  <div className="rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent shadow-sm">
     Active: {activeCount}
   </div>
 </div>
@@ -145,13 +145,11 @@ const HeroSection = () => {
               : "translate-y-4 opacity-0"
           }`}
         >
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center justify-center">
             <p className="truncate text-sm font-semibold text-foreground sm:text-base">
               {shuffledNotifications[currentIndex]}
             </p>
-            <span className="shrink-0 rounded-full bg-accent/10 px-2 py-1 text-[10px] font-semibold text-accent sm:text-xs">
-              Active: {activeCount}
-            </span>
+
           </div>
         </div>
       </div>
