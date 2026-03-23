@@ -139,14 +139,14 @@ const HeroSection = () => {
       {/* Floating notification */}
       <div className="pointer-events-none fixed bottom-4 left-1/2 z-50 w-[calc(100%-24px)] max-w-md -translate-x-1/2 md:bottom-5">
         <div
-          className={`rounded-xl border border-border bg-card/95 px-3 py-2 shadow-lg backdrop-blur-sm transition-all duration-300 ${
+          className={`rounded-2xl border border-border bg-card/95 px-4 py-3 shadow-lg backdrop-blur-sm transition-all duration-300 ${
             visible
               ? "translate-y-0 opacity-100"
               : "translate-y-4 opacity-0"
           }`}
         >
           <div className="flex items-center justify-between gap-3">
-            <p className="truncate text-xs font-medium text-foreground sm:text-sm">
+            <p className="truncate text-sm font-semibold text-foreground sm:text-base">
               {shuffledNotifications[currentIndex]}
             </p>
             <span className="shrink-0 rounded-full bg-accent/10 px-2 py-1 text-[10px] font-semibold text-accent sm:text-xs">
