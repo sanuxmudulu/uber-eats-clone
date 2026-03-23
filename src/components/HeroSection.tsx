@@ -58,7 +58,16 @@ const HeroSection = () => {
 
       setTimeout(() => {
         setCurrentIndex((prev) => (prev + 1) % shuffledNotifications.length);
-        setActiveCount(160 + Math.floor(Math.random() * 41));
+        setActiveCount((prev) => {
+  const changes = [-2, -1, 1, 2];
+  const change = changes[Math.floor(Math.random() * changes.length)];
+  const next = prev + change;
+
+  if (next < 175) return prev + 1;
+  if (next > 184) return prev - 1;
+
+  return next;
+});
         setVisible(true);
       }, 350);
     }, 5000);
@@ -71,6 +80,11 @@ const HeroSection = () => {
 
   return (
     <section className="flex flex-col items-center px-4 pt-6 pb-4 text-center">
+      <div className="mb-4 flex w-full max-w-lg justify-end">
+  <div className="rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold text-accent shadow-sm">
+    Active: {activeCount}
+  </div>
+</div>
       {/* Brand */}
       <h1 className="mb-6 text-4xl md:text-5xl font-bold text-[#00843D]">
         WOOLWORTHS
@@ -123,7 +137,7 @@ const HeroSection = () => {
       </p>
 
       {/* Floating notification */}
-      <div className="pointer-events-none fixed bottom-4 left-1/2 z-50 w-[calc(100%-24px)] max-w-sm -translate-x-1/2 md:bottom-5">
+      <div className="pointer-events-none fixed bottom-4 left-1/2 z-50 w-[calc(100%-24px)] max-w-md -translate-x-1/2 md:bottom-5">
         <div
           className={`rounded-xl border border-border bg-card/95 px-3 py-2 shadow-lg backdrop-blur-sm transition-all duration-300 ${
             visible
