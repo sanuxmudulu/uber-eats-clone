@@ -51,7 +51,7 @@ const HeroSection = () => {
   useEffect(() => {
     const showTimer = setTimeout(() => {
       setVisible(true);
-    }, 2000);
+    }, 1500);
 
     const cycleTimer = setInterval(() => {
       setVisible(false);
@@ -70,7 +70,7 @@ const HeroSection = () => {
 });
         setVisible(true);
       }, 350);
-    }, 7000);
+    }, 9500);
 
     return () => {
       clearTimeout(showTimer);
